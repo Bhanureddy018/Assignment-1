@@ -7,7 +7,7 @@ int main() {
     // Initialize an array with integer values
     int a[] = { 8, 7, 6, 5, 2, 4, 1, 3, 9 };
 
-    // Calculate the length of the array
+    // Calculate the length of the array//
     int arrayLength = sizeof(a) / sizeof(int);
 
     // Bubble sort algorithm to sort the array in ascending order

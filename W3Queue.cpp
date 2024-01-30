@@ -8,14 +8,14 @@ using namespace std;
 // Function to display the elements of the queue
 void showq(queue<int> gq)
 {
-	queue<int> g = gq;
+	queue<int> g = gq;//
 	while (!g.empty()) {
 		cout << '\t' << g.front();
 		g.pop();
 	}
 	cout << '\n';
 }
-
+//
 // Driver Code
 int main()
 {

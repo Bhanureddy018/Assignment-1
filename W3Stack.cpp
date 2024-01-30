@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     // Creating an integer stack named 'stack'
-    stack<int> stack;
+    stack<int> stack;//
 
     // Pushing values into the stack
     stack.push(21); // Pushing 21 into the stack
