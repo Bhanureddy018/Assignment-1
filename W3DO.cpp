@@ -10,12 +10,12 @@ int main() {
 
     // Bubble sort algorithm to sort the array in descending order
     for (int i = 0; i < arrayLength; i++) {
-        // Iterate through the array up to the last but one element
+        // Iterate through the array up to the //last but one element
         for (int j = 0; j < arrayLength - 1; j++) {
             // Compare adjacent elements and swap if necessary to sort in descending order
             if (a[j] < a[j + 1]) {
                 int temp = a[j];
-                a[j] = a[j + 1];
+                a[j] = a[j + 1];//
                 a[j + 1] = temp;
             }
         }

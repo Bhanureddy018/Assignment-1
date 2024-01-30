@@ -18,7 +18,7 @@ int main() {
     stack.pop();     // Popping the top element from the stack (removing 25)
     stack.pop();     // Popping the top element from the stack (removing 24)
 
-    // Printing the remaining elements in the stack
+    // Printing the remaining elements in the stack//
     while (!stack.empty()) {
         cout << stack.top() << " "; // Outputting the top element of the stack
         stack.pop();                // Popping the top element from the stack

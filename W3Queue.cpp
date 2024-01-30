@@ -10,7 +10,8 @@ void showq(queue<int> gq)
 {
 	queue<int> g = gq;//
 	while (!g.empty()) {
-		cout << '\t' << g.front();
+		cout << '\t' << g.front();//
+
 		g.pop();
 	}
 	cout << '\n';
